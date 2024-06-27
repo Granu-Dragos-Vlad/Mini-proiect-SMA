@@ -31,6 +31,6 @@ public class AgentLivrare extends Agent {
 	}
 
 	protected void takeDown() {
-		System.out.println("Agentul de Livrare " + getAID().getName() + " se termină.");
+		System.out.println("Agentul de Livrare " + getAID().getName() + " si-a terminat executia.");
 	}
 }
